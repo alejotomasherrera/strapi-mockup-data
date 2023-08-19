@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reparacions",
+  "info": {
+    "singularName": "reparacion",
+    "pluralName": "reparacions",
+    "displayName": "reparaciones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombreProducto": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "descripcionReparacion": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    }
+  }
+}

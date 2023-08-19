@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cuentas",
+  "info": {
+    "singularName": "cuenta",
+    "pluralName": "cuentas",
+    "displayName": "Cuentas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombreCliente": {
+      "type": "string"
+    },
+    "dni": {
+      "type": "integer"
+    },
+    "correo": {
+      "type": "email"
+    },
+    "estadoCuenta": {
+      "type": "string"
+    }
+  }
+}
